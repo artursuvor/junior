@@ -21,16 +21,6 @@ Vytvořte typ (název typu začíná velkým písmenem T, dodržujte PascalCase)
 
 Typ zapište do stejného souboru, jako je objekt.
 
-### 1. úkol - TS
-**Pracujte ve složce `./tasks/task_1`**.
-
-Vytvořte typ (název typu začíná velkým písmenem T, dodržujte PascalCase) pro objekt v souboru `typescript.ts`. Zaměřte se zejména na:
-- vlastnosti
-- vstupy metod
-- návratové hodnoty metod
-
-Typ zapište do stejného souboru, jako je objekt.
-
 ### 2. úkol - Pure CSS
 **Pracujte ve složce `./tasks/task_2`**. kterou si vytvoříte.
 
