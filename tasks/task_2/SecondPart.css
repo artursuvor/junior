@@ -6,10 +6,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: red;
 }
 
 p {
-  margin: 1em; 
+  margin: 1rem; 
   min-width: 30%;
   text-align: center;
+  background-color: brown;
 }
