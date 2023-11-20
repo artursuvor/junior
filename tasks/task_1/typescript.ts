@@ -18,3 +18,15 @@ const starobrnoMedium = {
     }
   }
 };
+
+type Pivo = {
+  name: string; 
+  volume: number;
+  alc: number;
+  drunkedMe: (pieces: number) => boolean;
+  onStock: boolean;
+  ingredients: {
+    [key: string]: number | string;
+  };
+  iGonnaPay: () => boolean | undefined;
+};
