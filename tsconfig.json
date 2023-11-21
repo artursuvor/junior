@@ -21,6 +21,6 @@
     "strict": true,
     "target": "es2015",
 },
-"include": ["**/*.ts", "**/*.tsx", "vite.config.ts", "tailwind.config.ts", "postcss.config.ts"],
+"include": ["**/*.ts", "**/*.tsx", "vite.config.ts", "tailwind.config.ts", "postcss.config.ts", "src/components/pages/Home/Home.js"],
 "exclude": ["node_modules", "tasks/**/*"]
 }
