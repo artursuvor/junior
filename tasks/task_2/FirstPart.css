@@ -3,6 +3,10 @@ body, html {
   margin: 0;
 }
 
+/*
+  existuje element <main /> a ten by byl vhodnější
+  než div s třídou main-body
+*/
 .main-body {
   height: 100%;
   display: flex;

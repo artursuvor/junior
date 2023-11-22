@@ -19,12 +19,14 @@ const starobrnoMedium = {
   }
 };
 
+//0 Preferuji prefix T pro typy z důvodu čitelnosti
 type Pivo = {
-  name: string; 
+  name: string;
   volume: number;
   alc: number;
   drunkedMe: (pieces: number) => boolean;
   onStock: boolean;
+  // ingredients: Record<string, number | string>;
   ingredients: {
     [key: string]: number | string;
   };

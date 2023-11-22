@@ -9,8 +9,13 @@ body {
   background-color: red;
 }
 
+/*
+  spíš než margin by bylo vhodnější použít u parentu pravidlo
+  gap: 2rem;
+  Tím pádem se vyhnete problémům s margin collapsing
+*/
 p {
-  margin: 1rem; 
+  margin: 1rem;
   min-width: 30%;
   text-align: center;
   background-color: brown;
