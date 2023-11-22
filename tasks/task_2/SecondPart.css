@@ -2,15 +2,15 @@ body {
   margin: 0;
 }
 
-.main-body {
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background-color: red;
+  gap: 2rem;
 }
 
 p {
-  margin: 1rem; 
   min-width: 30%;
   text-align: center;
   background-color: brown;
