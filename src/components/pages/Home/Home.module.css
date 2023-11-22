@@ -6,3 +6,23 @@
 
   width: 70dvw;
 }
+
+.icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: moveCircle 2s linear infinite; 
+}
+
+@keyframes moveCircle {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(80px) rotate(0deg); 
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(80px) rotate(-360deg); 
+  }
+}
